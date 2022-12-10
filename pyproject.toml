@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "proj-ind-demo"
+version = "0.1.0"
+description = ""
+authors = ["el20sw <el20sw@leeds.ac.uk>"]
+readme = "README.md"
+packages = [{include = "proj_ind_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+networkx = "^2.8.8"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
