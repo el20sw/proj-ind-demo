@@ -31,6 +31,11 @@ class Network:
         self.adj_list[vert1].add((vert2, pipe))
         self.adj_list[vert2].add((vert1, pipe))
 
+    # Method to create a vertex pair with a length of pipe between them
+    def create_vertex_pair(self, vertex1, vertex2, length):
+        # Include checking if vertex pair already exists etc.
+        pass
+
     # Print the network, showing the connections between the vertices
     def print_network(self):
         for vertex in self.adj_list.keys():
